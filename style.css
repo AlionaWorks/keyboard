@@ -1,0 +1,40 @@
+
+.container {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 70%;
+    height: 30px;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.key {
+    width: 135px;
+    height: 48px;
+    border: 1px solid black;
+    margin: 15px;
+    border-radius: 6px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.key[data="space"] {
+    width: 112px;
+}
+
+.active {
+    background: orange;
+}
